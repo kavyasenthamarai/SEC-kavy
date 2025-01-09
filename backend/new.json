@@ -1,0 +1,895 @@
+{
+    "intents": [
+{
+    "tag": "Rankings_and_Accreditations",
+    "patterns": [
+        "Provide rankings and accreditations",
+        "Details about rankings and accreditations",
+        "What are the rankings and accreditations?"
+    ],
+    "responses": [
+        "Rankings:\nNIRF:\n2024:\nEngineering Category:\nRank: 201-300\nTotal Institutions: 1463\nNAAC:\nAccreditation: A Grade\nCGPA: 3.19\nNBA: Accredited\n\nAccreditations:\nNAAC, NBA, ISO 9001:2008"
+    ]
+},
+{
+    "tag": "Infrastructure_Details",
+    "patterns": [
+        "Provide details about infrastructure",
+        "What facilities are available in infrastructure?",
+        "Explain the infrastructure features"
+    ],
+    "responses": [
+        "Infrastructure:\nClassrooms: Smartboard in all classrooms\nFacilities: A/C Classrooms, Labs, Hostels, Buses\nInternet: 1 Gbps High-speed Internet-enabled WIFI Campus\nBoarding: A-la-Carte System for Boarding Students\nE-learning: Online Learning Management System\nSpecialized Centers:\n- Nano Material Fabrication Centre\n- Communication Skills Laboratory\n- DSIR/TEPP Sponsored Fabrication of PTFE Material Centre\n- Advanced Machining Centre\nLibrary:\nType: Well-stocked Central Library\nFacilities: Computing facility with e-journals – IEEE, Journals and Magazines"
+    ]
+},
+{
+    "tag": "Academic_Performance",
+    "patterns": [
+        "Provide academic performance details",
+        "What is the pass percentage and ranking?",
+        "Details about academics and performance"
+    ],
+    "responses": [
+        "Academics:\nStudent Class Size: 30\nUniversity Results:\nPass Percentage: 91\nUniversity Ranks: 173\nInternship: Compulsory every year\nGraduation:\nPercentage: 96\nDegree: Anna University degrees\nScholarships:\nTotal Value: 6 Crore Merit Scholarship every year\nTypes:\n- Meritorious Students\n- Students Excelling in Sports\n- Government Scholarships for SC, ST, MBC, and OBC Students"
+    ]
+},
+{
+    "tag": "Faculty_Information",
+    "patterns": [
+        "Provide faculty information",
+        "Details about faculty qualifications",
+        "What is the staff-student ratio?"
+    ],
+    "responses": [
+        "Faculty:\nStaff-Student Ratio: 1:13\nPhDs:\nTotal: 201\nPursuing: 96\nTraining: Regular faculty development programs and workshops"
+    ]
+},
+{
+    "tag": "Research_Information",
+    "patterns": [
+        "Provide research details",
+        "What research facilities are available?",
+        "Explain research activities and publications"
+    ],
+    "responses": [
+        "Research:\nPatents:\nPublished: 220\nGranted: 25\nPublications: 3104\nFunded Projects:\nTotal Value: Rs.12 Crores\nFunding Agencies: DST, DSIR, BRNS, AICTE, CSIR\nResearch Centre: Recognized by the Scientific and Industrial Research Organisation (SIRO)\nCentres of Excellence:\nTotal: 32\nCollaborations:\n- IITB, IITK, Anna University, IBM, Wipro, Infosys, British English Council, Oracle, Microsoft, Capgemini, EMC, Virtusa, Kramsky, Intellisense USA (MEMS), ISRO"
+    ]
+},
+{
+  "tag": "Dress_Code",
+  "patterns": [
+      "Dress code rules",
+      "What is the dress code?",
+      "Dress code policy",
+      "Are shoes mandatory?",
+      "Dress code requirements"
+  ],
+  "responses": [
+      "The college expects students to dress in a manner that reflects decency and professionalism. Wearing jeans is allowed, provided they are not torn and present a neat appearance. Students are required to wear formal shoes and maintain a professional dress code on campus. The institution supports student expression within reasonable limits to ensure decorum is maintained."
+  ]
+},
+{
+  "tag": "Scholarships",
+  "patterns": [
+      "Tell me about scholarships",
+      "What scholarships are available?",
+      "Scholarship details"
+  ],
+  "responses": [
+      "Saveetha Engineering College offers various scholarships to support students financially. These scholarships are awarded based on academic performance, sports achievements, and other criteria. For detailed information on eligibility and application procedures, it's advisable to contact the admissions office or visit the official college website."
+  ]
+},
+{
+  "tag": "Flexi_Learn",
+  "patterns": [
+      "Explain Flexi Learn",
+      "What is Flexi Learn?",
+      "Flexible learning options"
+  ],
+  "responses": [
+      "The college provides flexible learning options to accommodate diverse student needs. This includes online courses, evening classes, and other adaptable learning schedules. For more details, please refer to the academic programs section on the college's official website."
+  ]
+},
+{
+  "tag": "Semester_System",
+  "patterns": [
+      "Explain the semester system",
+      "How does the semester system work?",
+      "Semester details"
+  ],
+  "responses": [
+      "Saveetha Engineering College follows a semester-based academic calendar, with two main semesters each year. Each semester includes a set of courses, assessments, and examinations designed to provide a comprehensive educational experience."
+  ]
+},
+{
+  "tag": "Food_Facilities",
+  "patterns": [
+      "Food facilities on campus",
+      "Tell me about the food options",
+      "Dining facilities available"
+  ],
+  "responses": [
+      "The college campus includes dining facilities that offer a variety of hygienic and nutritious food options to cater to the diverse tastes of students. These facilities are designed to ensure that students have access to quality meals during their time on campus."
+  ]
+},
+{
+  "tag": "Mobile_Phone_Policy",
+  "patterns": [
+      "Mobile phone usage rules",
+      "Are mobile phones allowed?",
+      "Phone policy on campus"
+  ],
+  "responses": [
+      "Students are permitted to use mobile phones on campus; however, usage is restricted during class hours and in designated areas to maintain an environment conducive to learning. It's recommended to adhere to the college's guidelines on mobile phone usage to avoid any disciplinary actions."
+  ]
+},
+{
+  "tag": "Dress_Code",
+  "patterns": [
+      "Dress code rules",
+      "What is the dress code?",
+      "Dress code policy"
+  ],
+  "responses": [
+      "The college expects students to dress in a manner that reflects decency and professionalism. Wearing jeans is allowed, provided they are not torn and present a neat appearance. The institution supports student expression within reasonable limits to maintain decorum on campus."
+  ]
+},
+{
+  "tag": "Placement_Opportunities",
+  "patterns": [
+      "Placement details",
+      "Tell me about placements",
+      "Placement opportunities available"
+  ],
+  "responses": [
+      "Saveetha Engineering College boasts a robust placement cell that facilitates opportunities across various departments. The college has established connections with numerous reputable companies, providing students with prospects in diverse fields. For department-specific placement statistics and information, students are encouraged to consult the placement office or the college's official communications."
+  ]
+},
+{
+  "tag": "Cultural_Activities",
+  "patterns": [
+      "Cultural events and activities",
+      "Tell me about cultural activities",
+      "Cultural programs available"
+  ],
+  "responses": [
+      "The college actively promotes cultural engagement through various events and festivals. Students have the opportunity to participate in and organize cultural programs, fostering a vibrant campus life and encouraging the exploration of diverse talents."
+  ]
+},
+{
+  "tag": "Celanza_24",
+  "patterns": [
+      "Tell me about Celanza '24",
+      "Details about Celanza '24",
+      "What happened in Celanza '24?"
+  ],
+  "responses": [
+      "Saveetha Engineering College's annual cultural fest, Celanza '24, was a spectacular event that featured performances by renowned artists, including singer Andrea Jeremiah, VJ Sidhu, actor Arjun Das, actress Tanya Ravichandran, and musician Pradeep Kumar. The fest was marked by vibrant lights, fireworks, and a host of other attractions, making it a memorable experience for all attendees. For more insights and updates on such events, you can visit the college's official Instagram page: https://www.instagram.com/saveethaengineeringcollege?igsh=eWU1NTEyMmRuM25o"
+  ]
+},
+{
+  "tag": "Festivals_and_Celebrations",
+  "patterns": [
+      "Are festivals celebrated on campus?",
+      "Do you celebrate festivals like Pongal and Diwali?",
+      "What festivals are celebrated at the college?",
+      "Tell me about cultural celebrations",
+      "Is Christmas celebrated on campus?"
+  ],
+  "responses": [
+      "Saveetha Engineering College celebrates festivals such as Pongal, Diwali, and Christmas on campus to honor traditions and promote cultural diversity. These events are marked with enthusiasm, including special programs, decorations, and performances, allowing students to experience the joy of festivities while respecting cultural values."
+  ]
+},
+{
+  "tag": "Sports_Facilities",
+  "patterns": [
+      "Sports facilities available",
+      "Tell me about the sports facilities",
+      "What sports are available on campus?"
+  ],
+  "responses": [
+      "Saveetha Engineering College offers a range of sports facilities, including cricket, football, basketball, volleyball, and badminton courts. The campus promotes a healthy lifestyle by encouraging students to participate in sports activities and tournaments, fostering physical fitness and teamwork."
+  ]
+},
+{
+  "tag": "Library_Access",
+  "patterns": [
+      "Library access details",
+      "How can I access the library?",
+      "Library facilities available"
+  ],
+  "responses": [
+      "The college library is accessible to all students and faculty members, providing a wealth of resources, including books, journals, e-books, and research databases. Students can access the library's services and facilities by presenting their college ID cards and adhering to the library's rules and regulations."
+  ]
+},
+{
+  "tag": "Hostel_Accommodation",
+  "patterns": [
+      "Hostel accommodation details",
+      "Tell me about the hostel facilities",
+      "What are the hostel options?"
+  ],
+  "responses": 
+      [
+        "Saveetha Engineering College offers hostel accommodation with separate facilities for boys and girls. The hostels are equipped with modern amenities to ensure a comfortable stay for students. Facilities include furnished rooms, 24/7 security, high-speed internet, recreational areas, and mess facilities providing nutritious meals. The hostels also have common rooms, study areas, and laundry services to cater to the needs of the students."
+      ]
+    },
+    {
+      "tag": "Fees_Details",
+      "patterns": [
+          "What is the fee structure?",
+          "Details about college fees",
+          "Are there different fees for each department?",
+          "What are the fees for government quota?",
+          "What are the fees for management quota?",
+          "How can I get detailed information about the fees?"
+      ],
+      "responses": [
+          "The fee structure varies depending on the department. The college offers two quotas: the government quota and the management quota, each with different fee details. For accurate and detailed information about the fees, it is recommended to contact the admission office directly."
+      ]
+  },
+     
+{
+    "tag": "Placement_Statistics",
+    "patterns": [
+        "Provide placement details",
+        "What are the placement statistics?",
+        "Details about placement and packages"
+    ],
+    "responses": [
+        "Placement:\nActive Placement Cell: true\nStatistics:\nPlacement Rate: 97%\nBatch Year: 2023\nDay 1 Placement Offers: 410\nMultiple Placement Offers: 600\nInternship Cum Placement: 245\nTotal Recruiters: 652\nTop Packages:\n- JPMorgan Chase & Co.: 34 Lakhs\n- Mu Sigma: 30 Lakhs\n- ValueLabs: 16 Lakhs\n- DevRev: 12 Lakhs\n- NielsenIQ: 11.5 Lakhs\n- Amazon: 11 Lakhs\n- Guvi: 10.6 Lakhs\n- QUBE: 10.5 Lakhs\n- PRESIDIO: 12.5 Lakhs\n- JSW: 10 Lakhs"
+    ]
+},
+{
+    "tag": "Awards_and_Achievements",
+    "patterns": [
+        "Provide awards and achievements details",
+        "What awards has the institution won?",
+        "Details about achievements and recognitions"
+    ],
+    "responses": [
+        "Awards:\nWinners of Smart India Hackathon (2017-2021)\nChief Minister’s Award for Excellence in e-governance\nEMC2 Academic Partner Award\nBest Techno Faculty Award by ICTACT Academy (5 Consecutive Years)\nBest Teaching Department Awards from Stanford University, UK\nBest Student Project Awards by Texas Instruments & Petrofac\nAspiring Minds Excellence award by AMCAT\nIEEE Best Student Branch Award for 2019\nIII place in L&T Construction – CAD Challenge hosted by IIT Madras – Shaastra 2022\nPALS Award of Excellence in Participation from IIT-Madras (2019-2021)"
+    ]
+},
+{
+    "tag": "Saveetha_Engineering_College",
+    "patterns": [
+        "Provide general details about Saveetha Engineering College",
+        "Where is Saveetha Engineering College located?",
+        "What are the contact details for Saveetha Engineering College?",
+        "Who is the founder of Saveetha Engineering College?",
+        "When was Saveetha Engineering College established?",
+        "What is the vision and mission of Saveetha Engineering College?",
+        "What programs and courses are offered at Saveetha Engineering College?",
+        "What are the accreditations of Saveetha Engineering College?",
+        "What is the campus size of Saveetha Engineering College?",
+        "What are the rankings of Saveetha Engineering College?",
+        "Tell me about the campus facilities at Saveetha Engineering College",
+        "What sports and extracurricular activities are available at Saveetha Engineering College?",
+        "Does Saveetha Engineering College have a library?",
+        "What are the hostel facilities at Saveetha Engineering College?",
+        "Is transportation available for students?",
+        "What research centers does Saveetha Engineering College have?",
+        "Does Saveetha Engineering College offer scholarships?"
+    ],
+    "responses": [
+        "General Information:\nName: Saveetha Engineering College\nFounder: Dr. N. M. Veeraiyan\nEstablished: 2001\nLocation: Saveetha Nagar, Thandalam, Chennai - 602105, Tamil Nadu, India\nLandmark: Near Sriperumbudur Industrial Hub\nContact:\n- Phone: +91 8939902737\n- Email: admission@saveetha.ac.in\n- Website: www.saveetha.ac.in\nCampus Size: 120 Acres\nStudent Strength: 4349",
+
+        "Vision and Mission:\nVision: To be recognized for setting the standard of excellence in engineering education and high-quality research in Science and Technology.\nMission: To promote academic excellence, widen intellectual horizons, and encourage self-discipline and high ideals for the total personality development of individuals.",
+
+        "Programs Offered:\nUndergraduate Courses: 15\nPostgraduate Courses: 8\nDoctoral Programs: 5\nInternational Programs:\n- Exchange programs with foreign universities\n- Dual degree options\n- Short-term overseas study tours",
+
+        "Accreditations:\n- NBA: Accredited for 5 courses (Valid until 2025)\n- NAAC: Grade 'A' with a score of 3.19 (Duration: 5 Years)\n- UGC: Autonomous status (Effective from 2019-2020)\n- DSIR: Recognized as a Scientific and Industrial Research Organization (SIRO)",
+
+        "Rankings and Recognitions:\n- NIRF Rank: 96 (2017-18)\n- Industry Collaborations: MoUs with reputed academic institutions in India and abroad\n- Research Centers: 5 dedicated research centers with industry tie-ups",
+
+        "Campus Facilities:\n- Smart Classrooms with Wi-Fi connectivity\n- Central Library with 50,000+ books, journals, and e-resources\n- State-of-the-art laboratories and research facilities\n- Auditoriums and Seminar Halls\n- Cafeteria and Food Courts\n- Health Center with medical services\n- Gymnasium and Fitness Centers\n- Sports Complex with cricket, basketball, football, and indoor games",
+
+        "Hostel Facilities:\n- Separate hostels for boys and girls\n- Furnished rooms with 24/7 security and Wi-Fi\n- Mess facilities offering vegetarian and non-vegetarian meals\n- Recreation areas and reading rooms\n- Laundry services available",
+
+        "Transport Facilities:\n- Fleet of buses covering major areas of Chennai and nearby regions\n- Pickup and drop services for day scholars\n- Safe and punctual transport for staff and students",
+
+        "Research and Innovation:\n- 5 Research Centers for advanced studies and innovation\n- Funded projects supported by DST, AICTE, and DRDO\n- Collaborative research opportunities with industries and foreign universities",
+
+        "Scholarships and Financial Aid:\n- Merit-Based Scholarships for academic achievers\n- Need-Based Scholarships for economically weaker sections\n- Sports Scholarships for outstanding performers\n- Government Scholarships for eligible candidates\n- Educational Loans facilitated through bank tie-ups",
+
+        "Sports and Extracurricular Activities:\n- Sports: Cricket, Football, Basketball, Badminton, Volleyball, and Athletics\n- Annual Sports Meet and Inter-college Tournaments\n- Clubs: Robotics Club, Coding Club, Photography Club, and Cultural Societies\n- Events: Technical Fests, Hackathons, and Annual Cultural Fest (SAVEX)",
+
+        "Placements:\nActive Placement Cell: true\nStatistics:\nPlacement Rate: 97%\nBatch Year: 2023\nDay 1 Placement Offers: 410\nMultiple Placement Offers: 600\nInternship Cum Placement: 245\nTotal Recruiters: 652\nTop Packages:\n- JPMorgan Chase & Co.: 34 Lakhs\n- Mu Sigma: 30 Lakhs\n- ValueLabs: 16 Lakhs\n- DevRev: 12 Lakhs\n- NielsenIQ: 11.5 Lakhs\n- Amazon: 11 Lakhs\n- Guvi: 10.6 Lakhs\n- QUBE: 10.5 Lakhs\n- PRESIDIO: 12.5 Lakhs\n- JSW: 10 Lakhs"
+    ]
+},
+    {
+      "tag": "Placement_Statistics",
+      "patterns": [
+        "Provide placement details",
+        "What are the placement statistics?",
+        "Details about placement and packages"
+      ],
+      "responses": [
+        "Placement:\nActive Placement Cell: true\nStatistics:\nPlacement Rate: 97%\nBatch Year: 2023\nDay 1 Placement Offers: 410\nMultiple Placement Offers: 600\nInternship Cum Placement: 245\nTotal Recruiters: 652\nTop Packages:\n- JPMorgan Chase & Co.: 34 Lakhs\n- Mu Sigma: 30 Lakhs\n- ValueLabs: 16 Lakhs\n- DevRev: 12 Lakhs\n- NielsenIQ: 11.5 Lakhs\n- Amazon: 11 Lakhs\n- Guvi: 10.6 Lakhs\n- QUBE: 10.5 Lakhs\n- PRESIDIO: 12.5 Lakhs\n- JSW: 10 Lakhs"
+      ]
+    },
+    {
+      "tag": "Awards",
+      "patterns": [
+        "What awards has the college won?",
+        "List the achievements and recognitions"
+      ],
+      "responses": [
+        "Awards:\n- Winners of Smart India Hackathon (2017-2021)\n- Chief Minister’s Award for Excellence in e-governance\n- EMC2 Academic Partner Award\n- Best Techno Faculty Award by ICTACT Academy (5 Consecutive Years)\n- Best Teaching Department Awards from Stanford University, UK\n- Best Student Project Awards by Texas Instruments & Petrofac\n- Aspiring Minds Excellence award by AMCAT\n- IEEE Best Student Branch Award for 2019\n- III place in L&T Construction – CAD Challenge hosted by IIT Madras – Shaastra 2022\n- PALS Award of Excellence in Participation from IIT-Madras (2019-2021)"
+      ]
+    },
+    {
+      "tag": "Collaborations",
+      "patterns": [
+        "What are the collaborations and MoUs?",
+        "Provide details about industry partnerships"
+      ],
+      "responses": [
+        "Collaborations:\n- Entrepreneurship Cell: In Association with National Entrepreneurship Network, India\n- MoUs: 256 with Industries and Institutions\n- Training: In-plant Training in Industry | Content Beyond Syllabus"
+      ]
+    },
+    {
+      "tag": "Student_Achievements",
+      "patterns": [
+        "What are the student achievements?",
+        "Details about student clubs and activities"
+      ],
+      "responses": [
+        "Student Achievements:\nMedals:\n- Gold: 25\n- Silver: 25\nEvent: Zonal Athletics Meet of Anna University, Chennai\nClubs and Activities:\n- Students for Exploration and Development of Space (SEDS) in association with ISRO\n- IEEE Student Chapter\n- ISTE Membership and ISTE Chapter\n- IE(India) Membership and IEI Chapter\n- IETE Membership and IETE Chapter\n- SAE Membership and SAE Chapter"
+      ]
+    },
+    {
+      "tag": "Future_Plans",
+      "patterns": [
+        "What are the future plans of the college?",
+        "Details about infrastructure and research development plans"
+      ],
+      "responses": [
+        "Future Plans:\n- Industry 5.0 Preparation: Imparting 21st Century Skills to students\n- Research Expansion: Increase in funded research projects and collaborations\n- Infrastructure Development: Enhancement of campus facilities and resources"
+      ]
+    },
+    {
+      "tag": "Departments",
+      "patterns": [
+        "List available departments",
+        "What are the courses offered?"
+      ],
+      "responses": [
+        "Departments:\n- SCoFT\n- Artificial Intelligence & Data Science\n- Artificial Intelligence & Machine Learning\n- Computer Science & Engineering\n- Computer Science & Engineering (Cyber Security)\n- Computer Science & Engineering (IoT)\n- Information Technology\n- Agricultural Engineering\n- Bio Medical Engineering\n- Civil Engineering\n- Chemical Engineering\n- Electrical & Electronics Engineering\n- Electronics & Instrumentation Engineering\n- Electronics & Communication Engineering\n- Mechanical Engineering\n- Medical Electronics\n- Science and Humanities\n- Training\n- Master of Business Administration"
+      ]
+    },
+    {
+      "tag": "UG Courses",
+      "patterns": [
+        "List available UG courses",
+        "What are the undergraduate courses offered?"
+      ],
+      "responses": [
+        "Undergraduate Courses (B.Tech):\n- Artificial Intelligence & Data Science\n- Artificial Intelligence & Machine Learning\n- Information Technology\n\nUndergraduate Courses (B.E.):\n- Computer Science & Engineering\n- Computer Science & Engineering (Cyber Security)\n- Computer Science & Engineering (IoT)\n- Agricultural Engineering\n- Bio Medical Engineering\n- Chemical Engineering\n- Medical Electronics"
+      ]
+    },    
+    {
+      "tag": "PG Courses",
+      "patterns": [
+        "List available PG courses",
+        "What are the postgraduate courses offered?"
+      ],
+      "responses": [
+        "Postgraduate Courses offered by Saveetha Engineering College:\n\n1. Master of Business Administration (MBA) - 2 years\n2. M.E. in Computer Science - 2 years (full-time or 3 years part-time)\n3. M.E. in VLSI Design - 2 years (full-time or 3 years part-time)\n4. M.S. by Research - available in various fields including:\n   - Biomedical Engineering\n   - Computer Science\n   - Electronics\n   - Electrical Engineering\n   - Chemistry\n   - Physics\n5. Ph.D. - available in various fields including:\n   - Biomedical Engineering\n   - Computer Science\n   - Electronics\n   - Electrical Engineering\n   - Chemistry\n   - Physics"
+      ]
+    },  
+    {
+      "tag": "SCoFT",
+      "patterns": [
+        "Tell me about SCoFT",
+        "What is SCoFT departments?",
+        "Details about SCoFT"
+      ],
+      "responses": [
+        "The SCoFT - Saveetha Consortium for Future Technologies was established in the year 2020 with the ideology of connecting all the departments of Saveetha Engineering College under one roof to experience the learning methods and development of Industry 5.0. The program duration is 4 years, focusing on interdisciplinary collaboration, cutting-edge research, and industry partnerships. The following departments come under SCoFT:\n- Artificial Intelligence & Data Science\n- Artificial Intelligence & Machine Learning\n- Computer Science & Engineering\n- Computer Science & Engineering (Cyber Security)\n- Computer Science & Engineering (IoT)\n- Information Technology"
+      ]
+    },    
+    {
+      "tag": "AI_DS",
+      "patterns": [
+        "Tell me about Artificial Intelligence and Data Science",
+        "What is AI and Data Science?",
+        "Details about AI and Data Science department"
+      ],
+      "responses": [
+        "The Artificial Intelligence and Data Science (AI & DS) department focuses on AI, machine learning, big data analytics, and data-driven decision-making. The department provides specialized labs, experienced faculty, and research opportunities in AI and Data Science. The program duration is 4 years."
+      ]
+    },
+    {
+      "tag": "AI_ML",
+      "patterns": [
+        "Tell me about Artificial Intelligence and Machine Learning",
+        "What is AI and Machine Learning?",
+        "Details about AI and Machine Learning department"
+      ],
+      "responses": [
+        "The Artificial Intelligence and Machine Learning (AI & ML) department emphasizes algorithms, deep learning, and natural language processing. Facilities include AI labs and collaborations with industries for practical exposure. The program duration is 4 years."
+      ]
+    },
+    {
+      "tag": "CSE",
+      "patterns": [
+        "Tell me about Computer Science and Engineering",
+        "What is Computer Science and Engineering?",
+        "Details about CSE department"
+      ],
+      "responses": [
+        "The Computer Science and Engineering (CSE) department offers programs in software engineering, databases, and networking. Modern labs, coding platforms, and research groups provide hands-on experience for students. The program duration is 4 years."
+      ]
+    },
+    {
+      "tag": "Main Options",
+      "patterns": [
+        "What courses are available?",
+        "Tell me about the college",
+        "What are the departments?",
+        "What programs are offered?"
+      ],
+      "responses": [
+        "Here are the main categories you can ask about:\n1. Courses Offered\n2. Departments\n3. Faculty\n4. Research\n5. Infrastructure\n6. Placements\n7. Admissions\n8. Campus Life\n\nYou can ask questions about any of these topics."
+      ]
+    },    
+    {
+      "tag": "CSE_CyberSecurity",
+      "patterns": [
+        "Tell me about Computer Science and Engineering (Cyber Security)",
+        "What is Cyber Security in CSE?",
+        "Details about Cyber Security department"
+      ],
+      "responses": [
+        "The Computer Science and Engineering (Cyber Security) department focuses on network security, cryptography, ethical hacking, and secure software development. Students are equipped with hands-on tools to address modern cyber threats. The program duration is 4 years."
+      ]
+    },
+    {
+      "tag": "CSE_IoT",
+      "patterns": [
+        "Tell me about Computer Science and Engineering (Internet of Things)",
+        "What is IoT in Computer Science and Engineering?",
+        "Details about IoT department"
+      ],
+      "responses": [
+        "The Computer Science and Engineering (Internet of Things) department offers a 4-year program focusing on Internet of Things, Embedded Systems, Sensor Networks, and Smart Systems. Facilities include state-of-the-art labs and the Centre for IoT Research."
+      ]
+    },
+    {
+      "tag": "IT",
+      "patterns": [
+        "Tell me about Information Technology",
+        "What is Information Technology?",
+        "Details about IT department"
+      ],
+      "responses": [
+        "The Information Technology (IT) department offers programs on programming, software development, networking, and database systems. Equipped with modern labs and tools, it prepares students for IT careers. The program duration is 4 years."
+      ]
+    },
+    {
+      "tag": "Agriculture",
+      "patterns": [
+        "Tell me about Agricultural Engineering",
+        "What is Agricultural Engineering?",
+        "Details about Agricultural Engineering department"
+      ],
+      "responses": [
+        "The Agricultural Engineering department focuses on sustainable farming technologies, irrigation systems, and agricultural machinery. It prepares students for advancements in agricultural practices. The program duration is 4 years."
+      ]
+    },
+    {
+      "tag": "Civil",
+      "patterns": [
+        "Tell me about Civil Engineering",
+        "What is Civil Engineering?",
+        "Details about Civil Engineering department"
+      ],
+      "responses": [
+        "The Civil Engineering department emphasizes structural engineering, construction technologies, and environmental engineering. Students are trained in design, analysis, and infrastructure development. The program duration is 4 years."
+      ]
+    },
+    {
+      "tag": "Mechanical",
+      "patterns": [
+        "Tell me about Mechanical Engineering",
+        "What is Mechanical Engineering?",
+        "Details about Mechanical Engineering department"
+      ],
+      "responses": [
+        "The Mechanical Engineering department focuses on design, manufacturing, thermodynamics, and robotics. Equipped with advanced labs, it prepares students for engineering innovations. The program duration is 4 years."
+      ]
+    },
+    {
+      "tag": "MBA",
+      "patterns": [
+        "Tell me about Master of Business Administration",
+        "What is MBA?",
+        "Details about MBA department"
+      ],
+      "responses": [
+        "The Master of Business Administration (MBA) program covers finance, marketing, operations, and management strategies. It provides leadership and entrepreneurship skills. The program duration is 2 years."
+      ]
+    },
+    {
+      "tag": "ECE",
+      "patterns": [
+        "Tell me about Electronics and Communication Engineering",
+        "What is ECE?",
+        "Details about ECE department"
+      ],
+      "responses": [
+        "The Electronics and Communication Engineering (ECE) department focuses on communication systems, signal processing, and embedded systems. It offers labs, projects, and industry collaborations. The program duration is 4 years."
+      ]
+    },
+    {
+      "tag": "EEE",
+      "patterns": [
+        "Tell me about Electrical and Electronics Engineering",
+        "What is EEE?",
+        "Details about EEE department"
+      ],
+      "responses": [
+        "The Electrical and Electronics Engineering (EEE) department emphasizes power systems, electrical machines, and control systems. It offers labs, projects, and industry internships. The program duration is 4 years."
+      ]
+    },
+    {
+      "tag": "EIE",
+      "patterns": [
+        "Tell me about Electronics and Instrumentation Engineering",
+        "What is EIE?",
+        "Details about EIE department"
+      ],
+      "responses": [
+        "The Electronics and Instrumentation Engineering (EIE) department focuses on instrumentation systems, process control, and automation. It offers labs, projects, and industry tie-ups. The program duration is 4 years."
+      ]
+    },
+    {
+      "tag": "Medical_Electronics",
+      "patterns": [
+        "Tell me about Medical Electronics",
+        "What is Medical Electronics?",
+        "Details about Medical Electronics department"
+      ],
+      "responses": [
+        "The Medical Electronics department focuses on medical imaging, diagnostic devices, and healthcare technologies. It offers labs, research projects, and clinical collaborations. The program duration is 4 years."
+      ]
+    },
+    {
+      "tag": "Science_Humanities",
+      "patterns": [
+        "Tell me about Science and Humanities",
+        "What is Science and Humanities?",
+        "Details about Science and Humanities department"
+      ],
+      "responses": [
+        "The Science and Humanities department offers courses in physics, chemistry, mathematics, and English. It provides foundational knowledge and communication skills for engineering students. The program duration is 4 years."
+      ]
+    },
+    {
+      "tag": "Training",
+      "patterns": [
+        "Tell me about Training department",
+        "What is Training department?",
+        "Details about Training department"
+      ],
+      "responses": [
+        "The Training department focuses on soft skills, technical training, and industry readiness programs. It offers workshops, internships, and placement assistance for students. The program duration is 4 years."
+      ]
+    },
+    {
+      "tag": "academic_life",
+      "patterns": [
+        "Tell me about academic life",
+        "What is academic life like at SEC?",
+        "Details about academic life"
+      ],
+      "responses": [
+        "SEC provides access to lecture notes, important questions, and academic updates through their website. Continuous assessment is done through internal exams, assignments, and model exams. Attendance and marks are updated daily for parent visibility.",
+        "Guest lectures by industry and academic experts are conducted to enhance the curriculum and expose students to recent trends.",
+        "Feedback is collected on faculty members to ensure teaching effectiveness, with remedial actions taken if needed.",
+        "Students identified as weak through assessments are provided with special coaching, tests, and individual counseling.",
+        "Discipline in attendance and conduct is emphasized for academic success.",
+        "Students are encouraged to excel in final-year projects, engage in in-house projects, collaborate with organizations like ICF and NIOT, and apply for patents or publications. Best student projects are awarded annually."
+      ]
+    },
+    {
+      "tag": "computing_and_internet_facility",
+      "patterns": [
+        "Tell me about computing facilities",
+        "What internet facilities are available?",
+        "Details about computing and internet access"
+      ],
+      "responses": [
+        "SEC offers high-end computing facilities, including NVIDIA DGX H100 powered by eight Tensor Core GPUs delivering 32 petaFLOPS AI performance.",
+        "NVIDIA A100 Tensor Core GPU delivers up to 5 petaFLOPS of AI performance for AI, data analytics, and HPC.",
+        "NVIDIA L40 GPU provides high-performance computing for deep learning, real-time ray-tracing, and visual computing workloads.",
+        "Meta Llama 3 LLM supports research initiatives with a 70 Billion Chat Model and 34 Billion Code Model.",
+        "NVIDIA Jetson Nano is used for embedded systems, robotics, and IoT applications.",
+        "NVIDIA Orin Nano Developer Kit enhances CPU and GPU performance for scalable projects.",
+        "Poodll toolkit integrated with Moodle LMS provides plugins for audio/video recording and skill assessments.",
+        "AICTE’s One Learner One Laptop Scheme offers high-end laptops with a 4-year warranty and 10-hour battery backup.",
+        "Campus-wide Wi-Fi ensures seamless connectivity for students, staff, and visitors.",
+        "Over 3000 laptops and 1200 desktops equipped with IPv6 are available for academic purposes.",
+        "70 departmental printers are strategically placed for easy access.",
+        "Microsoft Campus Agreement provides software tools to enhance productivity and collaboration.",
+        "High-end rack server systems support web hosting, video streaming, and academic applications.",
+        "1 Gbps Ethernet LAN technology ensures fast data transfer and connectivity.",
+        "Campus-wide networking covers 3 km, including hostels, with high-speed Wi-Fi technology.",
+        "1 Gbps high-bandwidth internet supports academic research and video conferencing.",
+        "24/7 lab facilities provide computers, software, and internet for project work.",
+        "A parent communication portal enables tracking marks, attendance, and faculty communication."
+      ]
+    },    
+    {
+      "tag":"infrastructure_facilities", 
+        "patterns": [
+          "Tell me about the infrastructure facilities",
+          "What are the infrastructure facilities?",
+          "Can you provide details on the infrastructure available?"
+        ],
+        "responses": [
+          "SEC has experienced faculty, with 200 Ph.D. holders contributing to academic excellence.",
+          "All classrooms are equipped with high-end smart board facilities with internet connection, enabling an enhanced teaching-learning experience.",
+          "The institution provides a 24/7 Online Learning Centre, Communication Skills Laboratory, Nano Material Fabrication Centre, and more.",
+          "There is a dedicated placement cell to support students' career development.",
+          "The Entrepreneurship Cell fosters a network of Saveetha Techpreneurs and vibrant activities.",
+          "SEC collaborates with IGCAR & ISRO in a Research Centre, promoting scientific advancements and innovation.",
+          "The central library is spacious, computerized, and offers over 42,708 volumes and 8,850 titles, with access to over 2,500 international and national journals.",
+          "The library features institutional memberships with Anna University, NDLI, and DELNET, with continuous additions of recommended titles.",
+          "Classrooms are equipped with touch-screen smart boards and excellent sound systems to enhance interactive learning."
+        ]
+      },
+      {
+      "tag":"student_life", 
+        "patterns": [
+          "Tell me about the student life",
+          "What is campus life like at SEC?",
+          "Can you provide details about student life and facilities?"
+        ],
+        "responses": [
+          "Campus Life at SEC – Saveetha Engineering College (Autonomous) is lively and enriching, fostering a perfect blend of academics & extracurricular activities. Students enjoy a community-oriented environment, diverse dining options, and relaxing lush beautiful green spaces. With a strong emphasis on sports, fitness, and cutting-edge technology, SEC ensures a dynamic experience for everyone.",
+          "The campus offers a state-of-the-art fitness centre with high-tech cardio equipment and fully-equipped weightlifting stations.",
+          "There are separate residences for boys and girls with comfortable, community-focused living spaces that foster lifelong friendships and support networks.",
+          "The campus has multiple canteens offering diverse and affordable menus for every palate.",
+          "Ultra-modern sports grounds with facilities for cricket, football, kabaddi, volleyball, basketball, and more. Friendly competitions and team spirit are encouraged.",
+          "The state-of-the-art General Library offers a wealth of resources, including books, journals, e-books, research databases, computer terminals, printing services, and multimedia labs.",
+          "The campus has an AC transport system for comfortable and hassle-free commutes with multiple routes, convenient pickup/drop-off points, professional drivers, and onboard security measures.",
+          "The campus is energy-efficient, with solar power installations, rainwater harvesting, and waste reduction initiatives. The lush green campus offers a peaceful environment for learning and relaxation. It is equipped with smart classrooms and online modules supported by secured 1 Gbps high-speed WiFi."
+        ]
+    },
+    {
+      "tag":"hostel_facilities", 
+        "patterns": [
+          "Tell me about the hostel facilities",
+          "What are the accommodation options?",
+          "Can you describe the hostel living arrangements?"
+        ],
+        "responses": [
+          "SEC hostels are designed to offer a secure, comfortable, and enriching living environment that fosters both academic and personal growth. Separate accommodations are provided for Boys and Girls, with a vibrant community atmosphere.",
+          "There are exclusive Boys’ and Girls’ hostels with various accommodation options, such as Single attached AC, Single attached Non-AC, and various 2-in-1, 4-in-1, and dormitory setups."
+        ],
+        "facilities": [
+          "The dining halls are spacious, well-maintained, and offer hygienic vegetarian and non-vegetarian food options available 7 days a week.",
+          "State-of-the-art gym and high-standard indoor games such as badminton court and carom.",
+          "Secured 1 Gbps high-speed WiFi for seamless connectivity and study.",
+          "24/7 in-house medical care with a 1200+ bed multi-specialty hospital within the campus.",
+          "Entertainment halls with multi-channel television.",
+          "Exclusive visitors’ lounge with 24/7 security vigilance.",
+          "Treated RO water on all floors for drinking, solar hot water for bathing, and a clean, hygienic environment."
+        ]
+      },
+      {
+        "tag":"sports_and_games",
+        "patterns": [
+          "Tell me about sports facilities at SEC",
+          "What sports facilities are available?",
+          "Can you describe the sports and games offered?"
+        ],
+        "responses": [
+          "SEC offers ultra-modern sports facilities with various sports grounds, including cricket, football, kabaddi, volleyball, basketball, and more. Friendly competitions and team spirit are encouraged."
+        ]
+      },
+      {
+        "tag":"clubs",
+        "patterns": [
+          "What clubs are available at SEC?",
+          "Tell me about the extracurricular activities and clubs",
+          "What co-curricular clubs can students join?"
+        ],
+        "responses": [
+          "SEC offers a variety of co-curricular and extracurricular clubs such as Coders Club, Literary Club, Math Club, Chemsoft Club, Robotics Club, Curis Club, Innovation Club, and Young India Club.",
+          "Joining a club at SEC helps students develop skills in networking, teamwork, leadership, communication, problem-solving, and enhances their CV."
+        ],
+        "motivation": [
+          "SEC clubs are designed to help students learn new skills and gain fresh experiences, making them more competitive in their professional lives."
+        ]
+      },
+      {
+        "tag": "admission_procedure", 
+        "patterns": [
+            "Tell me about the admission procedure",
+            "How do I apply for admission?",
+            "What is the process for applying to SEC?"
+        ],
+        "responses": [
+            "The admission procedure involves registering as a prospective student, followed by the assignment of an Admission Counsellor. Admission is merit-based on the SEAT: Saveetha Engineering Aptitude Test, and candidates are guided based on their scores and counseling methods.",
+            "You can register as a Prospective SEC Student by submitting the Registration Form on the homepage, calling +91-8939902737, emailing admission@saveetha.ac.in, or visiting the admission office. For detailed steps, visit the [Saveetha Engineering College Admission Page](https://saveetha.ac.in/)."
+        ]
+    },
+    {
+      "tag": "programs_offered_undergraduate",
+      "patterns": [
+        "What undergraduate programs are offered?",
+        "Tell me about the undergraduate courses at SEC",
+        "What are the B.Tech courses available?"
+      ],
+      "responses": [
+        "SEC offers a range of undergraduate programs, including B.Tech and B.E. courses in fields such as Agricultural Engineering, Artificial Intelligence, Civil Engineering, Computer Science, Mechanical Engineering, and more. The duration is 4 years, with lateral entry options available for some programs."
+      ]
+    },
+    {
+      "tag": "programs_offered_postgraduate",
+      "patterns": [
+        "What postgraduate programs are offered?",
+        "Tell me about the MBA and M.E. programs at SEC",
+        "What are the available master's programs?"
+      ],
+      "responses": [
+        "SEC offers postgraduate programs like MBA (2 years) and M.E. in Computer Science and VLSI Design (2 years full time or 3 years part time)."
+      ]
+    },
+    {
+      "tag": "programs_offered_research",
+      "patterns": [
+        "Tell me about the research programs offered at SEC",
+        "What are the research courses available?",
+        "Do you offer M.S. by Research or Ph.D. programs?"
+      ],
+      "responses": [
+        "SEC offers M.S. by Research and Ph.D. programs in various fields including Biomedical Engineering, Computer Science, Electronics, Electrical Engineering, Chemistry, Physics, and more. These programs are available full time or part time."
+      ]
+    },
+    {
+      "tag": "calendar_admission",
+      "patterns": [
+        "When is the last date for application submission?",
+        "Tell me about the admission calendar at SEC",
+        "What is the deadline for admission?"
+      ],
+      "responses": [
+        "The admission dates are pending notification from the Government of Tamil Nadu. Please stay updated on the official website for more details on application requests, submission deadlines, result announcements, and more."
+      ]
+    },
+    {
+      "tag": "calendar_cut_off_marks",
+      "patterns": [
+        "How are the cut off marks calculated?",
+        "What is the formula for calculating the cut off marks?",
+        "Tell me about the cut off marks at SEC"
+      ],
+      "responses": [
+        "The cut off marks are calculated using the formula: (Marks in Mathematics / 2) + (Marks in Physics / 4) + (Marks in Chemistry / 4)."
+      ]
+    },
+    {
+      "tag": "contact_info_admission",
+      "patterns": [
+        "How can I contact SEC for admission?",
+        "Give me the contact details for admission",
+        "What is the phone number for admission inquiries?"
+      ],
+      "responses": [
+        "You can contact SEC for admissions at +91 8939902737 or via email at admission@saveetha.ac.in."
+      ]
+    },
+    {
+      "tag": "placement_overview",
+      "patterns": [
+          "Tell me about the placement opportunities",
+          "What are the placement statistics?",
+          "How are the placements at SEC?"
+      ],
+      "responses": [
+          "SEC provides industry-synced training, strategic placement preparation, and strong industry connections with over 500 companies, offering hands-on experience and live projects. Key features include workshops, resume building, and interview preparation.",
+          "SEC boasts a placement rate of 97%, with the highest salary offered being ₹34 Lakhs per annum and the average salary being ₹5 Lakhs per annum. Over 650 companies visit the campus for recruitment."
+      ]
+  },
+  {
+      "tag": "placement_details",
+      "patterns": [
+          "Tell me about the recent placements",
+          "Who got placed from SEC?",
+          "What are the recent placement details?"
+      ],
+      "responses": [
+          "Here are some recent placements: \n2018-22 batch: Caral A (Civil Engineering) - ₹5.3 LPA at Kalvium/Pyramid Glazing. \n2019-23 batch: Sherwin Roger (AI & Data Sciences) - ₹5 LPA at Auroitech. \n2020-24 batch: Bharath S (IT) - ₹5 LPA at Grootan."
+      ]
+  },
+  {
+      "tag": "placement_contact",
+      "patterns": [
+          "How do I contact the placement office?",
+          "What is the placement contact information?",
+          "Give me the placement office contact details."
+      ],
+      "responses": [
+          "You can reach the placement office at +91 8939902737 or via email at admission@saveetha.ac.in. The office is located at Saveetha Nagar, Thandalam, Chennai - 602105."
+      ]
+  },
+  {
+    "tag": "campus_facilities",
+    "patterns": [
+      "What are the dining options available on campus?",
+      "Tell me about the fitness and recreation facilities.",
+      "What medical services are available?",
+      "How is the internet connectivity on campus?",
+      "Are there any entertainment facilities?",
+      "What security measures are in place on campus?",
+      "Tell me about the water and hygiene facilities."
+    ],
+    "responses": [
+      "Dining halls offer hygienic vegetarian and non-vegetarian food, available daily from 7:00 AM to 9:00 PM. Gym with indoor games operates from 6:00 AM to 10:00 PM. Internet is available 24/7 campus-wide with 1 Gbps speed. 24/7 in-house medical care with a multi-specialty hospital. Entertainment halls open from 10:00 AM to 10:00 PM. Visitors must register at the security desk. Clean water with solar hot water provided."
+    ]
+  },
+  {
+    "tag": "fitness_and_recreation",
+    "patterns": [
+      "What fitness facilities are available on campus?",
+      "Tell me about the gym and indoor games.",
+      "How can I access fitness and recreation services?"
+    ],
+    "responses": [
+      "The campus features a state-of-the-art gym open from 6:00 AM to 10:00 PM, and a variety of indoor games, including badminton and carom, available from 8:00 AM to 8:00 PM. Access is open to all students and staff with prior registration."
+    ]
+  },
+  
+  {
+    "tag": "internet_and_connectivity",
+    "patterns": [
+      "How is the internet connection on campus?",
+      "Tell me about the Wi-Fi facilities.",
+      "Is the internet available 24/7?"
+    ],
+    "responses": [
+      "The campus provides 1 Gbps high-speed Wi-Fi with 24/7 access across classrooms, libraries, and hostels. Students can log in using their student credentials."
+    ]
+  },
+  
+  {
+    "tag": "medical_facilities",
+    "patterns": [
+      "What medical services are available on campus?",
+      "Tell me about the medical facilities.",
+      "How can I contact the campus hospital?"
+    ],
+    "responses": [
+      "The campus houses a 1200+ bed multi-specialty hospital open 24/7. Emergency care, outpatient services, and specialized treatments are available. In case of an emergency, dial 911. General inquiries can be directed to 044-12345678."
+    ]
+  },
+  {
+    "tag": "security_measures",
+    "patterns": [
+      "What security measures are in place on campus?",
+      "Tell me about the campus security.",
+      "How is the safety ensured?"
+    ],
+    "responses": [
+      "The campus has 24/7 security surveillance with CCTV cameras, security guards, and access control systems. Visitors are required to register at the security desk for entry. Emergency response teams are available for immediate assistance."
+    ]
+  }, 
+  {
+    "tag": "water_and_hygiene",
+    "patterns": [
+      "What water facilities are available on campus?",
+      "Tell me about the water and hygiene facilities.",
+      "Is there any system for water conservation?"
+    ],
+    "responses": [
+      "The campus provides treated RO water on all floors for drinking, solar hot water for bathing, and ensures a clean environment with regular maintenance. Rainwater harvesting systems are also in place to support water conservation."
+    ]
+  }   
+    
+  ]
+  }
