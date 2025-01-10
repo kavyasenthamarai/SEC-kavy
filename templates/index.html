@@ -88,6 +88,7 @@
     .floating-icon:hover {
       background-color: darkviolet;  /* Darker color on hover */
       transform: scale(1.1);  /* Slightly increase the size on hover */
+      width: 70px;  /* Increase the size on hover */
     }
 
     .floating-msg {
@@ -101,12 +102,36 @@
       opacity: 0;
       pointer-events: none;
       transition: opacity 0.3s ease;
+      widdth:200px;
+      margin-left: -70px;
     }
 
     .floating-icon:hover .floating-msg {
       opacity: 1; /* Show the message on hover */
     }
-
+    #loading-indicator {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px; /* Space between dots */
+      margin: 10px 0;
+    }
+  
+    #loading-indicator .dot {
+      width: 8px; /* Increased size */
+      height: 8px; /* Increased size */
+      background-color: #555;
+      border-radius: 50%;
+      opacity: 0.2;
+      animation: blink 1.5s infinite;
+    }
+  
+    @keyframes blink {
+      50% {
+        opacity: 1;
+      }
+    }
+    
     .chatbox-container {
       position: fixed;
       bottom: 0;
@@ -238,7 +263,7 @@
     💬
   
   <span class="floating-msg">Chat with us!</span>
-</div>
+  </div>
   <div id="chatbox" class="chatbox-container">
     <div class="chatbox-header">
       <span>Saveetha AI Bot</span>
@@ -250,36 +275,32 @@
       <button onclick="sendMessage()">Send</button>
     </div>
   </div>
-
   <script>
+    let isFetching = false; // To track loading state
+  
     // Function to toggle chatbox visibility
     function toggleChatbox() {
       const chatbox = document.getElementById('chatbox');
       chatbox.classList.toggle('show');
       if (!chatbox.classList.contains('show')) {
-        // Show the floating icon when chatbox is closed
         document.querySelector('.floating-icon').style.display = 'block';
       } else {
-        // Hide the floating icon when chatbox is open
         document.querySelector('.floating-icon').style.display = 'none';
       }
     }
   
-    // Function to close the chatbox and show the floating icon
     function closeChatbox() {
       const chatbox = document.getElementById('chatbox');
       chatbox.classList.remove('show');
-      document.querySelector('.floating-icon').style.display = 'block';  // Show the icon
+      document.querySelector('.floating-icon').style.display = 'block';
     }
   
-    // Function to send a message to the chatbot
     function sendMessage() {
-      const userMessage = document.getElementById('chat-input').value;  // Corrected to chat-input
+      const userMessage = document.getElementById('chat-input').value;
       if (userMessage) {
-        // Display user message
         displayMessage(userMessage, 'user');
-        
-        // Send message to backend
+        setLoading(true); // Show loading indicator
+  
         fetch('http://localhost:5000/index', {
           method: 'POST',
           headers: {
@@ -287,16 +308,20 @@
           },
           body: JSON.stringify({ message: userMessage }),
         })
-        .then(response => response.json())
-        .then(data => {
-          displayMessage(data.reply, 'bot');
-        });
-        
-        document.getElementById('chat-input').value = '';  // Clear the input field
+          .then(response => response.json())
+          .then(data => {
+            setLoading(false); // Hide loading indicator
+            displayMessage(data.reply, 'bot');
+          })
+          .catch(() => {
+            setLoading(false); // Hide loading indicator
+            displayMessage("Something went wrong. Please try again.", 'bot');
+          });
+  
+        document.getElementById('chat-input').value = '';
       }
     }
   
-    // Function to display a message in the chatbox
     function displayMessage(message, sender) {
       const messageDiv = document.createElement('div');
       messageDiv.classList.add(sender + '-message');
@@ -304,13 +329,49 @@
       document.getElementById('chatbox-messages').appendChild(messageDiv);
       document.getElementById('chatbox-messages').scrollTop = document.getElementById('chatbox-messages').scrollHeight;
     }
-
-    // Function to check for Enter key press
+  
+    function setLoading(isLoading) {
+      const chatboxMessages = document.getElementById('chatbox-messages');
+      if (isLoading) {
+        isFetching = true;
+    
+        // Create a loading indicator with three animated dots
+        const loadingDiv = document.createElement('div');
+        loadingDiv.id = 'loading-indicator';
+        loadingDiv.classList.add('bot-message');
+        loadingDiv.innerHTML = '<span class="dot"></span><span class="dot"></span><span class="dot"></span>';
+        chatboxMessages.appendChild(loadingDiv);
+        chatboxMessages.scrollTop = chatboxMessages.scrollHeight;
+    
+        // Animate the dots
+        let dotIndex = 0;
+        const dots = loadingDiv.querySelectorAll('.dot');
+        const interval = setInterval(() => {
+          if (!isFetching) {
+            clearInterval(interval); // Stop animation if not loading
+            return;
+          }
+          dots.forEach((dot, i) => {
+            dot.style.opacity = i <= dotIndex ? '1' : '0.2';
+          });
+          dotIndex = (dotIndex + 1) % dots.length;
+        }, 500); // Adjust the speed of dot animation
+      } else {
+        isFetching = false;
+        const loadingDiv = document.getElementById('loading-indicator');
+        if (loadingDiv) loadingDiv.remove();
+      }
+    }
+    
+  
     function checkEnter(event) {
       if (event.key === "Enter") {
         sendMessage();
       }
     }
   </script>
+  
+  
+
 </body>
 </html>
